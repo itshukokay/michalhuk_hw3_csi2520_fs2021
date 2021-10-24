@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: whitesmoke;
+    background-color: rgb(188, 189, 206);
 }
 
 h1, h2{
@@ -15,24 +15,57 @@ h1, h2{
 p{
     text-align: center;
     display: inline-block;
-    width: fit-content;
-    margin: 5%;
+    width: 75%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: auto;
     border: 2px solid black;
-    padding: 3px;
-    position: relative;
-    left: 5%;
+    padding: 1%;
+    position: center;
     color: red;
-    text-transform: capitalize;
-    cursor: pointer;
+    float: none;
+}
+
+#quote{
+    font-style: italic;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p:hover{
+    background-color: darkgrey;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: darkred;
 }
 
 nav{
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    margin: 2px;
-    padding: 2px;
     text-align: center;
-    font-size: large;
-    cursor: pointer;
+    text-decoration: red;
+    font-weight: 700;
+    width: 75%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 1%;
+    float: none;
+}
+
+#headshot, #book, #music{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    float: left;
 }
